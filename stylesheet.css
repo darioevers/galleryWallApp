@@ -1,25 +1,27 @@
 body {
   background-color: #f5f5f5e8;
-  margin: auto;
-  max-width: 80vh;
 }
 
 main {
-  margin: auto;
   font-family: Montserrat;
+  max-width: 90vh;
+  margin: auto;
+  margin-top: 10vh;
 }
 
 .artcovers {
-  width: 50vh;
   height: 80vh;
+  width: 70%;
   display: flex;
   margin: auto;
+  position: relative;
+  left: -13%;
 }
 
 .left {
   display: block;
   margin: auto;
-  position: static;
+  position: relative;
 }
 
 .right {
