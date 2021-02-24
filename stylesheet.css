@@ -37,11 +37,13 @@ main {
 
 .joynerlucas {
   transition: 0.5s;
+  box-shadow: -1px 5px 10px gray;
 }
 
 .joynerlucas:hover {
   transform: scale(1.05);
   transition: 0.5s;
+  box-shadow: -2px 5px 15px gray;
 }
 
 .biggie {
