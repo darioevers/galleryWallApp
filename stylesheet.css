@@ -45,7 +45,7 @@ main {
 }
 
 .biggie {
-  filter: grayscale(90%);
+  filter: grayscale(30%);
   max-width: 200px;
   transition: 0.5s;
   box-shadow: 5px 5px 10px gray;
@@ -67,7 +67,7 @@ main {
 }
 
 .hopsin {
-  filter: grayscale(90%);
+  filter: grayscale(30%);
   max-width: 200px;
   transition: 0.5s;
   box-shadow: 5px 5px 10px gray;
@@ -90,7 +90,7 @@ main {
 }
 
 .nbayb {
-  filter: grayscale(90%);
+  filter: grayscale(30%);
   max-width: 200px;
   transition: 0.5s;
   box-shadow: 5px 5px 10px gray;
