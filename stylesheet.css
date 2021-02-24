@@ -35,7 +35,17 @@ main {
   margin: auto;
 }
 
+.joynerlucas {
+  transition: 0.5s;
+}
+
+.joynerlucas:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
 .biggie {
+  filter: grayscale(90%);
   max-width: 200px;
   transition: 0.5s;
   box-shadow: 5px 5px 10px gray;
@@ -51,11 +61,13 @@ main {
   transform: scale(1.1);
   box-shadow: 5px 5px 10px gray;
   transform: rotate(-5deg);
+  filter: grayscale(0%);
   z-index: 99;
   opacity: 1;
 }
 
 .hopsin {
+  filter: grayscale(90%);
   max-width: 200px;
   transition: 0.5s;
   box-shadow: 5px 5px 10px gray;
@@ -68,6 +80,7 @@ main {
 }
 
 .hopsin:hover {
+  filter: grayscale(0%);
   transition: 0.5s;
   transform: scale(1.1);
   box-shadow: 5px 5px 10px gray;
@@ -77,6 +90,7 @@ main {
 }
 
 .nbayb {
+  filter: grayscale(90%);
   max-width: 200px;
   transition: 0.5s;
   box-shadow: 5px 5px 10px gray;
@@ -92,6 +106,7 @@ main {
   transform: scale(1.1);
   box-shadow: 5px 5px 10px gray;
   transform: rotate(-5deg);
+  filter: grayscale(0%);
   z-index: 99;
   opacity: 1;
 }
