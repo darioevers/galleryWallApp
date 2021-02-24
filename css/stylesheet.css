@@ -46,7 +46,7 @@ main {
   box-shadow: -2px 5px 15px gray;
 }
 
-.biggie {
+.cover {
   filter: grayscale(30%);
   max-width: 200px;
   transition: 0.5s;
@@ -58,52 +58,7 @@ main {
   margin-bottom: 20px;
 }
 
-.biggie:hover {
-  transition: 0.5s;
-  transform: scale(1.1);
-  box-shadow: 5px 5px 10px gray;
-  transform: rotate(-5deg);
-  filter: grayscale(0%);
-  z-index: 99;
-  opacity: 1;
-}
-
-.hopsin {
-  filter: grayscale(30%);
-  max-width: 200px;
-  transition: 0.5s;
-  box-shadow: 5px 5px 10px gray;
-  transform: rotate(-20deg);
-  z-index: 10;
-  opacity: 0.8;
-  display: inline-block;
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.hopsin:hover {
-  filter: grayscale(0%);
-  transition: 0.5s;
-  transform: scale(1.1);
-  box-shadow: 5px 5px 10px gray;
-  transform: rotate(-5deg);
-  z-index: 99;
-  opacity: 1;
-}
-
-.nbayb {
-  filter: grayscale(30%);
-  max-width: 200px;
-  transition: 0.5s;
-  box-shadow: 5px 5px 10px gray;
-  transform: rotate(-20deg);
-  z-index: 10;
-  opacity: 0.8;
-  display: inline-block;
-  position: relative;
-}
-
-.nbayb:hover {
+.cover:hover {
   transition: 0.5s;
   transform: scale(1.1);
   box-shadow: 5px 5px 10px gray;
